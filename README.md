@@ -1,16 +1,28 @@
-Modele la siguiente problemática usando un diag. de clases UML, aplicando la arquitectura MVC y generando ventanas gráficas a través de Java Swing.
 
-1. Caso
+## Sistema de Automotora
+Este es un software diseñado para una automotora que permite gestionar los vehículos disponibles para la venta y la información de los clientes. El sistema proporciona funcionalidades para agregar clientes, agregar vehículos y buscar vehículos según diferentes criterios.
 
-Una automotora desea implementar un software capaz de mostrar todos los vehículos que tiene a la venta en sus diferentes sedes, especificando su nombre, año, precio, kilómetros recorridos, color, y marca.
+### Funcionalidades Principales
+#### El sistema ofrece las siguientes funcionalidades principales:
 
-Además se desea almacenar información con respecto a un cliente. De este usuario se desea saber su nombre, dirección, número telefónico, correo electrónico y rut.
+* Agregar Clientes: Permite agregar información de nuevos clientes, incluyendo su nombre, dirección, número telefónico, correo electrónico y rut. Se realizan validaciones para garantizar la integridad de los datos ingresados, como la verificación del formato del correo electrónico y la validez del rut.
+* Agregar Vehículos: Permite agregar información de nuevos vehículos disponibles para la venta, incluyendo su nombre, año, precio, kilómetros recorridos, color y marca. También se realizan validaciones para asegurar la integridad de los datos ingresados.
+* Buscar Vehículos: Permite buscar vehículos según diferentes criterios, proporcionando una manera rápida y eficiente de encontrar los vehículos disponibles en las diferentes sedes de la automotora.
+* Clases Principales del Sistema
+### El sistema está compuesto por los siguientes Packages y Clases principales:
 
-Con respecto a las funcionalidades del sistema, se requiere:
 
-Agregar Clientes
-Agregar Vehículos.
-Buscar Vehículos.
-OBS: Debe verificar que al momento de ingresar un correo electrónico o rut, se debe comprobar que este sea válido. En el caso del correo electrónico, se valida que haya al menos un carácter "@". Para la verificación del rut, se valida con el dígito verificador.
+* modelo: Contiene las clases relacionadas con el modelo de datos, como Automotora, Cliente, ColorVehiculo, MarcaVehiculo, Sede y Vehiculo.
+* Ventana: Contiene las clases que representan las interfaces gráficas del sistema, como VentanaBuscarVehiculo, VentanaMenuBienvenida, VentanaRegistrarCliente, VentanaRegistrarVehiculo y VentanaTabla.
+* utils: Contiene clases de utilidades para validar correo electrónico y rut, como ValidadorCorreo y ValidadorRut.
+* principal: Contiene la clase principal del programa, Main, que inicia la aplicación.
+### Validaciones
+Se realizan validaciones en las interfaces gráficas para garantizar la integridad de los datos ingresados. Esto incluye la verificación del formato del correo electrónico y la validez del rut.
 
-En el caso de las interfaces gráficas, debe considerar una ventana mínimo por cada funcionalidad, incluyendo una ventana tipo "Menú principal". En cada ventana debe incluir todas las validaciones que sean necesarias. Ej: Agregar clientes o vehículos sin datos.
+### Interfaz Gráfica
+Se ha implementado una interfaz gráfica que cumple con los requisitos mínimos, incluyendo una ventana tipo "Menú principal" y ventanas específicas para cada funcionalidad. Cada ventana incluye las validaciones necesarias para asegurar que los datos ingresados sean correctos.
+
+### Diagrama de Clases UML
+![Automotora UML.png](Automotora%20UML.png)
+### Pruebas de Funcionamiento
+[Caputuras Funcionalidad](Caputuras%20Funcionalidad)
