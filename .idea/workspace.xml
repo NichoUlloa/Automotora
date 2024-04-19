@@ -4,30 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="236dbc65-2685-45eb-9684-919481dc1309" name="Changes" comment="primer comit, se sube readme">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/AutomotoraController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/Automotora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/ColorVehiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/MarcaVehiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/Sede.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/Vehiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/principal/testVntanas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ValidadorCorreo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ValidadorRut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ventana/Ventana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ventana/VentanaBuscarVehiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ventana/VentanaMenuBienvenida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ventana/VentanaRegistrarCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ventana/VentanaRegistrarVehiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ventana/VentanaTabla.java" afterDir="false" />
+    <list default="true" id="236dbc65-2685-45eb-9684-919481dc1309" name="Changes" comment="actualizacion Clases y metodos para Automotora">
+      <change afterPath="$PROJECT_DIR$/src/main/java/principal/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/principal/testVntanas.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.GestionAutomotoraController.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.MenuPrincipal.executor": "Run",
     "Application.RegistroCliente.executor": "Run",
     "Application.RegistroVehiculo.executor": "Run",
@@ -94,7 +76,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.VentanaMenuBienvenida">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="principal.Main" />
+      <module name="Automotora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="principal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ValidadorRut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="utils.ValidadorRut" />
       <module name="Automotora" />
@@ -147,26 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testVntanas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="principal.testVntanas" />
-      <module name="Automotora" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="principal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.VentanaMenuBienvenida" />
         <item itemvalue="Application.ValidadorRut" />
         <item itemvalue="Application.VentanaRegistrarVehiculo" />
         <item itemvalue="Application.VentanaRegistrarCliente" />
-        <item itemvalue="Application.testVntanas" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +173,7 @@
       <workItem from="1713293650830" duration="3845000" />
       <workItem from="1713371444697" duration="627000" />
       <workItem from="1713451457963" duration="3305000" />
-      <workItem from="1713529908028" duration="9448000" />
+      <workItem from="1713529908028" duration="10767000" />
     </task>
     <task id="LOCAL-00001" summary="primer comit, se sube readme">
       <option name="closed" value="true" />
@@ -201,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713293731883</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="actualizacion Clases y metodos para Automotora">
+      <option name="closed" value="true" />
+      <created>1713539963600</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713539963600</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +199,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primer comit, se sube readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="primer comit, se sube readme" />
+    <MESSAGE value="actualizacion Clases y metodos para Automotora" />
+    <option name="LAST_COMMIT_MESSAGE" value="actualizacion Clases y metodos para Automotora" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -218,11 +209,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/principal/testVntanas.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
