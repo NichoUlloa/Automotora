@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="236dbc65-2685-45eb-9684-919481dc1309" name="Changes" comment="primer comit, se sube readme">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/AutomotoraController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/Automotora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/ColorVehiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/MarcaVehiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/Sede.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modelo/Vehiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/principal/testVntanas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ValidadorCorreo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ValidadorRut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ventana/Ventana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ventana/VentanaBuscarVehiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ventana/VentanaMenuBienvenida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ventana/VentanaRegistrarCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ventana/VentanaRegistrarVehiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ventana/VentanaTabla.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2fC8LwocFJPkIRx3BBhFSLjd9c8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GestionAutomotoraController.executor": "Run",
+    "Application.MenuPrincipal.executor": "Run",
+    "Application.RegistroCliente.executor": "Run",
+    "Application.RegistroVehiculo.executor": "Run",
+    "Application.ValidadorRut.executor": "Run",
+    "Application.VentanaMenuBienvenida.executor": "Run",
+    "Application.VentanaRegistrarCliente.executor": "Run",
+    "Application.VentanaRegistrarVehiculo.executor": "Run",
+    "Application.VentanaRegistroCliente.executor": "Run",
+    "Application.testVntanas.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "develop",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Nicho/IdeaProjects/Automotora/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.VentanaMenuBienvenida">
+    <configuration name="ValidadorRut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.ValidadorRut" />
+      <module name="Automotora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VentanaMenuBienvenida" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ventana.VentanaMenuBienvenida" />
+      <module name="Automotora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ventana.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VentanaRegistrarCliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ventana.VentanaRegistrarCliente" />
+      <module name="Automotora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ventana.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VentanaRegistrarVehiculo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ventana.VentanaRegistrarVehiculo" />
+      <module name="Automotora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ventana.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testVntanas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="principal.testVntanas" />
+      <module name="Automotora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="principal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.VentanaMenuBienvenida" />
+        <item itemvalue="Application.ValidadorRut" />
+        <item itemvalue="Application.VentanaRegistrarVehiculo" />
+        <item itemvalue="Application.VentanaRegistrarCliente" />
+        <item itemvalue="Application.testVntanas" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+        <option value="jdk-19.0.2-corretto-19.0.2-4caba194b151-48ba4555" />
+        <option value="jdk-21.0.2-corretto-21.0.2-4caba194b151-51586f01" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="236dbc65-2685-45eb-9684-919481dc1309" name="Changes" comment="" />
+      <created>1713293649609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713293649609</updated>
+      <workItem from="1713293650830" duration="3845000" />
+      <workItem from="1713371444697" duration="627000" />
+      <workItem from="1713451457963" duration="3305000" />
+      <workItem from="1713529908028" duration="9448000" />
+    </task>
+    <task id="LOCAL-00001" summary="primer comit, se sube readme">
+      <option name="closed" value="true" />
+      <created>1713293731883</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713293731883</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="primer comit, se sube readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="primer comit, se sube readme" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/principal/testVntanas.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
